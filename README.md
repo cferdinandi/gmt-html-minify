@@ -1,5 +1,5 @@
 # HTML Minify
-Minify your HTML output in WordPress.
+Minify your HTML output in WordPress. Forked from [DVS](http://www.intert3chmedia.net/2011/12/minify-html-javascript-css-without.html).
 
 
 ## How It Works
