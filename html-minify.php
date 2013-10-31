@@ -4,8 +4,8 @@
 
     Plugin Name: HTML Minify
     Plugin URI: http://github.com/cferdinandi/html-minify
-    Description: Minify your HTML output in WordPress.
-    Version: 1.0
+    Description: Minify your HTML output in WordPress. Control what gets minified under <a href="options-general.php?page=html_minify_theme_options">Settings &rarr; HTML Minify</a>.
+    Version: 1.1
     Author: Chris Ferdinandi
     Author URI: http://gomakethings.com
     License: MIT
