@@ -1,6 +1,8 @@
 # HTML Minify
 HTML Minify is a plugin for WordPress that compresses the HTML output to reduce file size and improve performance. It's forked from a [script by DVS](http://www.intert3chmedia.net/2011/12/minify-html-javascript-css-without.html).
 
+[Download HTML Minify](https://github.com/cferdinandi/html-minify/archive/master.zip)
+
 **In This Documentation**
 
 1. [Getting Started](#getting-started)
