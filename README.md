@@ -7,8 +7,9 @@ HTML Minify is a plugin for WordPress that compresses the HTML output to reduce 
 
 1. [Getting Started](#getting-started)
 2. [How to Contribute](#how-to-contribute)
-3. [License](#license)
-4. [Changelog](#changelog)
+3. [Known Issues](#known-issues)
+4. [License](#license)
+5. [Changelog](#changelog)
 
 
 
@@ -28,6 +29,12 @@ And that's it, you're done. Nice work! You change what gets minified under "Sett
 ## How to Contribute
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Don't forget to update the version number, the changelog (in the `readme.md` file), and when applicable, the documentation.
+
+
+
+## Known Issues
+
+It's been reported that [data URIs](https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs) may [break the minifier](https://github.com/cferdinandi/html-minify/issues/2). This has not been consistently duplicated, nor is their a fix available, but is something to be aware of.
 
 
 
