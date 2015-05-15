@@ -9,7 +9,6 @@ HTML Minify is a plugin for WordPress that compresses the HTML output to reduce 
 2. [How to Contribute](#how-to-contribute)
 3. [Known Issues](#known-issues)
 4. [License](#license)
-5. [Changelog](#changelog)
 
 
 
@@ -41,14 +40,3 @@ It's been reported that [data URIs](https://developer.mozilla.org/en-US/docs/Web
 ## License
 
 HTML Minify is licensed under the [MIT License](http://gomakethings.com/mit/).
-
-
-
-## Changelog
-
-HTML Minify uses [semantic versioning](http://semver.org/).
-
-* v1.1.0 - October 31, 2013
-	* Added a link to settings from plugin menu.
-* v1.0.0 - October 10, 2013
-	* Initial release.
