@@ -25,18 +25,20 @@ And that's it, you're done. Nice work! You change what gets minified under "Sett
 
 
 
-## How to Contribute
-
-In lieu of a formal style guide, take care to maintain the existing coding style. Don't forget to update the version number, the changelog (in the `readme.md` file), and when applicable, the documentation.
-
-
-
 ## Known Issues
 
 It's been reported that [data URIs](https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs) may [break the minifier](https://github.com/cferdinandi/html-minify/issues/2). This has not been consistently duplicated, nor is their a fix available, but is something to be aware of.
+
+Inline JavaScript also sometimes breaks when minified, so you may wish to exclude it from minification in the settings.
+
+
+
+## How to Contribute
+
+In lieu of a formal style guide, take care to maintain the existing coding style. Please apply fixes to both the development and production code. Don't forget to update the version number, and when applicable, the documentation.
 
 
 
 ## License
 
-HTML Minify is licensed under the [MIT License](http://gomakethings.com/mit/).
+The code is available under the [MIT License](LICENSE.md).
