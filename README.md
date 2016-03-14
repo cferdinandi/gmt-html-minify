@@ -3,13 +3,6 @@ HTML Minify is a plugin for WordPress that compresses the HTML output to reduce 
 
 [Download HTML Minify](https://github.com/cferdinandi/html-minify/archive/master.zip)
 
-**In This Documentation**
-
-1. [Getting Started](#getting-started)
-2. [How to Contribute](#how-to-contribute)
-3. [Known Issues](#known-issues)
-4. [License](#license)
-
 
 
 ## Getting Started
@@ -21,7 +14,7 @@ Getting started with HTML Minify is as simple as installing a plugin:
 
 And that's it, you're done. Nice work! You change what gets minified under "Settings" in the Admin Dashboard.
 
-*Inline JavaScript sometimes breaks when minified, so you may wish to exclude it from minification.*
+It's recommended that you also install the [GitHub Updater plugin](https://github.com/afragen/github-updater) to get automattic updates.
 
 
 
@@ -29,13 +22,11 @@ And that's it, you're done. Nice work! You change what gets minified under "Sett
 
 It's been reported that [data URIs](https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs) may [break the minifier](https://github.com/cferdinandi/html-minify/issues/2). This has not been consistently duplicated, nor is their a fix available, but is something to be aware of.
 
-Inline JavaScript also sometimes breaks when minified, so you may wish to exclude it from minification in the settings.
-
 
 
 ## How to Contribute
 
-In lieu of a formal style guide, take care to maintain the existing coding style. Please apply fixes to both the development and production code. Don't forget to update the version number, and when applicable, the documentation.
+Please read the [Contribution Guidelines](CONTRIBUTING.md).
 
 
 
